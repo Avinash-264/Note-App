@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.note {
+  padding: 20px;
+  font-size: 18px;
+  background-color: #e2edff;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.note button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: red;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.note-item {
+  background: #f2f2f2;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.note-item button {
+  margin: 5px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.note-item button:first-of-type {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.note-item button:last-of-type {
+  background-color: #3498db;
+  color: white;
+}
+
+.note-item button {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
