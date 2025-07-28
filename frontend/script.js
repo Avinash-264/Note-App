@@ -3,7 +3,8 @@ let token = '';
 // Automatically use localhost in dev, Render in production
 const backendURL = window.location.hostname.includes('localhost')
   ? 'http://localhost:5000'
-  : 'https://your-backend.onrender.com'; // Replace this after deployment
+  : 'https://note-app-oko4.onrender.com';
+
 
 async function register() {
   const res = await fetch(`${backendURL}/api/auth/register`, {
