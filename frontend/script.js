@@ -1,7 +1,7 @@
 let token = '';
 
 // ✅ Hardcoded backend URL (Render)
-const backendURL = 'https://note-app-oko4.onrender.com';
+const backendURL = 'http://localhost:5000';
 
 // ✅ Helper to show error messages
 function showError(message) {
