@@ -1,10 +1,7 @@
 let token = '';
 
-// Automatically use localhost in dev, Render in production
-const backendURL = window.location.hostname.includes('localhost')
-  ? 'http://localhost:5000'
-  : 'https://note-app-oko4.onrender.com';
-
+// ✅ Hardcoded backend URL (no localhost logic)
+const backendURL = 'https://note-app-oko4.onrender.com';
 
 async function register() {
   const res = await fetch(`${backendURL}/api/auth/register`, {
